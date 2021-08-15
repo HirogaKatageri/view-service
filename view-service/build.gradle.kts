@@ -99,7 +99,7 @@ afterEvaluate {
                     licenses {
                         license {
                             name.set("Apache-2.0")
-                            url.set("https://github.com/HirogaKatageri/core/blob/master/LICENSE.md")
+                            url.set("https://github.com/HirogaKatageri/view-service/blob/main/LICENSE.md")
                         }
                     }
 
