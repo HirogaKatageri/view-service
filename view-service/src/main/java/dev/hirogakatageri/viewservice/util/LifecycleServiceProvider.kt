@@ -29,9 +29,9 @@ import java.lang.ref.WeakReference
 class LifecycleServiceProvider(service: LifecycleService) {
 
     private val _service: WeakReference<LifecycleService> = WeakReference(service)
-
     val service
-        get() = _service.get() ?: throw RuntimeException("Reference to Service is missing")
+        get() = _service.get()
+            ?: throw RuntimeException("Reference to Service not found.")
 }
 
 val LifecycleServiceProvider.lifecycle: Lifecycle get() = service.lifecycle

@@ -27,7 +27,6 @@ import org.koin.core.parameter.parametersOf
  * */
 @Keep
 abstract class CoreViewService : CoreService(), ViewService {
-
     override val serviceProvider: LifecycleServiceProvider =
         get { parametersOf(this@CoreViewService) }
 }
