@@ -7,6 +7,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HK View Service"
+rootProject.name = "View Service"
 
 include(":view-service")

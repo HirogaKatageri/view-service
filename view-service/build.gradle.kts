@@ -54,9 +54,10 @@ android {
 }
 
 dependencies {
-    implementation("com.github.HirogaKatageri.core:core:0.3.5")
+    implementation("com.github.HirogaKatageri:core:0.5.1")
 
     implementation(Constants.KOTLIN_JDK_8)
+    implementation(Constants.ANDROID_LIFECYCLE_COMMON)
     implementation(Constants.ANDROID_LIFECYCLE_SERVICE)
 
     implementation(Constants.KOIN_ANDROID)
